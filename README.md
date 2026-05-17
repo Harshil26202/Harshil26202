@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f2027,100:1a1a2e&height=220&section=header&text=Harshil%20Kaneria&fontSize=62&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%20Engineer%20%7C%20LLM%20Solutions%20Builder&descAlignY=55&descSize=18&descColor=8b949e"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=760&lines=🤖+Building+RAG+Pipelines+%26+Multi-Agent+Systems;🚀+Scalable+Backend+%7C+FastAPI+%7C+Django+%7C+Node.js;🧠+LangChain+%7C+LangGraph+%7C+LLM+Fine-tuning;📊+97%25+Accuracy+RAG+Pipeline+in+Production;✨+Open+to+Exciting+Opportunities!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=760&lines=Building+RAG+Pipelines+%26+Multi-Agent+Systems;Scalable+Backend+%7C+FastAPI+%7C+Django+%7C+Node.js;LangChain+%7C+LangGraph+%7C+LLM+Fine-tuning;97%25+Accuracy+RAG+Pipeline+in+Production;Open+to+Exciting+Opportunities)](https://git.io/typing-svg)
 
 <br/>
 
@@ -24,21 +24,21 @@
 
 <img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98df23d44b63e7b76f28a30c4/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif"/>
 
-## 🧑‍💻 About Me
+## <img src="https://api.iconify.design/heroicons:user-circle-solid.svg?color=%2358a6ff" width="24" align="center"/> About Me
 
-- 🔭 **Solution Analyst** @ [Argusoft India Ltd](https://argusoft.com) — building production AI systems
-- 🎓 **B.E. Computer Engineering** — GEC Rajkot | **CGPA: 9.26**
-- 🌱 Deep-diving into **Agentic AI**, **LLM Orchestration** & **Multi-Agent Workflows**
-- 🏆 **GDSC Lead** • **Google HashCode 1st** • **Smart India Hackathon 2nd**
-- 🌐 **IIT Gandhinagar Externship** — selected from 20,000+ applicants
-- 📍 Rajkot, Gujarat, India | Available for Remote Opportunities
-- ⚡ Delivered **11 speaking sessions** & guided **400+ students** in GCP
+- <img src="https://api.iconify.design/heroicons:briefcase-solid.svg?color=%2358a6ff" width="15" align="center"/> **Solution Analyst** @ [Argusoft India Ltd](https://argusoft.com) — building production AI systems
+- <img src="https://api.iconify.design/heroicons:academic-cap-solid.svg?color=%2358a6ff" width="15" align="center"/> **B.E. Computer Engineering** — GEC Rajkot | **CGPA: 9.26**
+- <img src="https://api.iconify.design/heroicons:light-bulb-solid.svg?color=%2358a6ff" width="15" align="center"/> Deep-diving into **Agentic AI**, **LLM Orchestration** & **Multi-Agent Workflows**
+- <img src="https://api.iconify.design/heroicons:trophy-solid.svg?color=%2358a6ff" width="15" align="center"/> **GDSC Lead** • **Google HashCode 1st** • **Smart India Hackathon 2nd**
+- <img src="https://api.iconify.design/heroicons:globe-alt-solid.svg?color=%2358a6ff" width="15" align="center"/> **IIT Gandhinagar Externship** — selected from 20,000+ applicants
+- <img src="https://api.iconify.design/heroicons:map-pin-solid.svg?color=%2358a6ff" width="15" align="center"/> Rajkot, Gujarat, India | Available for Remote Opportunities
+- <img src="https://api.iconify.design/heroicons:bolt-solid.svg?color=%2358a6ff" width="15" align="center"/> Delivered **11 speaking sessions** & guided **400+ students** in GCP
 
 <br/><br/><br/>
 
 ---
 
-## 🔭 What I'm Up To
+## <img src="https://api.iconify.design/heroicons:code-bracket-solid.svg?color=%2358a6ff" width="24" align="center"/> What I'm Up To
 
 ```json
 {
@@ -59,7 +59,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## <img src="https://api.iconify.design/heroicons:squares-2x2-solid.svg?color=%2358a6ff" width="24" align="center"/> Tech Stack
 
 **Languages**
 
@@ -119,7 +119,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+## <img src="https://api.iconify.design/heroicons:chart-bar-solid.svg?color=%2358a6ff" width="24" align="center"/> GitHub Analytics
 
 <div align="center">
 
@@ -136,7 +136,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
+## <img src="https://api.iconify.design/heroicons:trophy-solid.svg?color=%2358a6ff" width="24" align="center"/> GitHub Trophies
 
 <div align="center">
 
@@ -146,7 +146,7 @@
 
 ---
 
-## 🐍 Contribution Graph
+## <img src="https://api.iconify.design/mdi:github.svg?color=%2358a6ff" width="24" align="center"/> Contribution Graph
 
 <div align="center">
 
@@ -156,55 +156,51 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/Harshil26202/Harshil26202/output/github-snake.svg"/>
 </picture>
 
-> ⚙️ _Snake animation requires the GitHub Action in `.github/workflows/snake.yml` — see setup instructions below._
-
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## <img src="https://api.iconify.design/heroicons:rocket-launch-solid.svg?color=%2358a6ff" width="24" align="center"/> Featured Projects
 
 <div align="center">
 
 | Project | Description | Stack |
 |:---|:---|:---|
-| 🤖 **[Agentic Scraping System](https://github.com/Harshil26202)** | Real-time medicine price comparison across 10+ e-commerce platforms via multi-agent orchestration | `LangGraph` `Celery` `Playwright` `FastAPI` |
-| 📚 **[RAG Document Q&A Pipeline](https://github.com/Harshil26202)** | Enterprise document intelligence — 97% accuracy over 1,000+ docs using LLaMA + ChromaDB + OCR | `RAG` `LLaMA` `ChromaDB` `FastAPI` |
-| 📊 **[NLP Chart Generator](https://github.com/Harshil26202)** | Natural language → business analytics charts — 90%+ accuracy, saves 50+ hrs/month | `OpenAI` `Fine-tuning` `Python` `Django` |
-| 🎙️ **[Conversational AI Agent](https://github.com/Harshil26202)** | Zoom & Twilio voice call AI with action-item capture — 40% improvement in post-call productivity | `Twilio` `LangChain` `Node.js` `WebRTC` |
-| 📸 **[AI Photo Culling System](https://github.com/Harshil26202)** | 72 ML features for photo quality assessment — 2.7 img/sec throughput, 98% accuracy | `PyTorch` `OpenCV` `Computer Vision` |
-| 🛰️ **[Multispectral Dehazing](https://github.com/Harshil26202)** | CNN-based satellite image clarity enhancement — 🥈 Smart India Hackathon 2022 | `CNN` `TensorFlow` `Image Processing` |
-| 🌳 **[Air Quality Forecasting](https://github.com/Harshil26202)** | GNN + RNN ensemble model with parallel processing for AQI prediction | `GNN` `RNN` `PyTorch` `scikit-learn` |
-| 🚗 **[Park@Ease](https://github.com/Harshil26202)** | Full-stack smart parking management with real-time slot availability | `Django` `PostgreSQL` `REST API` |
+| **[Agentic Scraping System](https://github.com/Harshil26202)** | Real-time medicine price comparison across 10+ e-commerce platforms via multi-agent orchestration | `LangGraph` `Celery` `Playwright` `FastAPI` |
+| **[RAG Document Q&A Pipeline](https://github.com/Harshil26202)** | Enterprise document intelligence — 97% accuracy over 1,000+ docs using LLaMA + ChromaDB + OCR | `RAG` `LLaMA` `ChromaDB` `FastAPI` |
+| **[NLP Chart Generator](https://github.com/Harshil26202)** | Natural language to business analytics charts — 90%+ accuracy, saves 50+ hrs/month | `OpenAI` `Fine-tuning` `Python` `Django` |
+| **[Conversational AI Agent](https://github.com/Harshil26202)** | Zoom & Twilio voice call AI with action-item capture — 40% improvement in post-call productivity | `Twilio` `LangChain` `Node.js` `WebRTC` |
+| **[AI Photo Culling System](https://github.com/Harshil26202)** | 72 ML features for photo quality assessment — 2.7 img/sec throughput, 98% accuracy | `PyTorch` `OpenCV` `Computer Vision` |
+| **[Multispectral Dehazing](https://github.com/Harshil26202)** | CNN-based satellite image clarity enhancement — Smart India Hackathon 2022 runner-up | `CNN` `TensorFlow` `Image Processing` |
+| **[Air Quality Forecasting](https://github.com/Harshil26202)** | GNN + RNN ensemble model with parallel processing for AQI prediction | `GNN` `RNN` `PyTorch` `scikit-learn` |
+| **[Park@Ease](https://github.com/Harshil26202)** | Full-stack smart parking management with real-time slot availability | `Django` `PostgreSQL` `REST API` |
 
 </div>
 
-> 🔗 _Update project links above with actual repo URLs. Private/company projects are described by impact._
-
 ---
 
-## 🎖️ Achievements & Awards
+## <img src="https://api.iconify.design/heroicons:star-solid.svg?color=%2358a6ff" width="24" align="center"/> Achievements & Awards
 
 <div align="center">
 
-| 🏅 | Achievement | Details |
+| | Achievement | Details |
 |:---:|:---|:---|
-| 🥇 | **Google HashCode** | 1st Place — Regional |
-| 🥈 | **Smart India Hackathon** | 2nd Place — National Level |
-| 💻 | **LeetCode** | Rating: **1664** |
-| ⭐ | **CodeChef** | Rating: **1810 (4⭐)** — Rank 99, International Long Challenge |
-| 📝 | **GATE 2023** | Score: 468 \| AIR: 3933 |
-| 🎓 | **CAT** | **95.16 Percentile** |
-| ☁️ | **Google Cloud** | 20+ Skill Badges Completed |
-| 🎤 | **Public Speaking** | 11 Sessions Delivered |
-| 🤝 | **LinkedIn Network** | 3,600+ Followers |
-| 📜 | **Certifications** | 100+ Earned |
+| ![](https://img.shields.io/badge/1st-FFD700?style=flat-square&labelColor=FFD700&color=1a1200&logoColor=black) | **Google HashCode** | 1st Place — Regional |
+| ![](https://img.shields.io/badge/2nd-C0C0C0?style=flat-square&labelColor=C0C0C0&color=1a1a1a&logoColor=black) | **Smart India Hackathon** | 2nd Place — National Level |
+| [![LeetCode](https://img.shields.io/badge/LC-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/hkharshil10/) | **LeetCode** | Rating: **1664** |
+| [![CodeChef](https://img.shields.io/badge/CC-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/harshilhk10) | **CodeChef** | Rating: **1810 (4 stars)** — Rank 99, International Long Challenge |
+| [![GATE](https://img.shields.io/badge/GATE-0d47a1?style=flat-square&logo=googlescholar&logoColor=white)](https://gate.iitk.ac.in) | **GATE 2023** | Score: 468 \| AIR: 3933 |
+| ![](https://img.shields.io/badge/CAT-7B1FA2?style=flat-square&logoColor=white) | **CAT** | **95.16 Percentile** |
+| [![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://cloud.google.com) | **Google Cloud** | 20+ Skill Badges Completed |
+| ![](https://img.shields.io/badge/Talks-E53935?style=flat-square&logo=speakerdeck&logoColor=white) | **Public Speaking** | 11 Sessions Delivered |
+| [![LinkedIn](https://img.shields.io/badge/3.6K%2B-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshil-kaneria-3a498918b/) | **LinkedIn Network** | 3,600+ Followers |
+| ![](https://img.shields.io/badge/100%2B-37474F?style=flat-square&logo=databricks&logoColor=white) | **Certifications** | 100+ Earned |
 
 </div>
 
 ---
 
-## 💼 Experience
+## <img src="https://api.iconify.design/heroicons:briefcase-solid.svg?color=%2358a6ff" width="24" align="center"/> Experience
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -213,7 +209,7 @@
 │                      │  ↳ RAG pipeline: 1K+ docs, 97% accuracy         │
 │                      │  ↳ NLP chart tool: 90%+ accuracy, -50 hrs/month │
 │                      │  ↳ Voice AI: 40% better action-item capture      │
-│                      │  ↳ Backend: 10K+ rec/day, 35% ↓latency, 99.9%↑ │
+│                      │  ↳ Backend: 10K+ rec/day, 35% latency, 99.9%   │
 ├─────────────────────────────────────────────────────────────────────────┤
 │  May – Jul 2022      │  SDE Intern @ Maruti Techlabs                   │
 │                      │  ↳ BI dashboards with DOMO, Tableau, MSSQL      │
@@ -225,19 +221,19 @@
 
 ---
 
-## 🏅 Competitive Programming
+## <img src="https://api.iconify.design/heroicons:computer-desktop-solid.svg?color=%2358a6ff" width="24" align="center"/> Competitive Programming
 
 <div align="center">
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-1664_Rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/hkharshil10/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-1810_(4⭐)-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/hkharshil10)
+[![CodeChef](https://img.shields.io/badge/CodeChef-1810_(4_Stars)-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/harshilhk10)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/harshilkaneriya2)
 
 </div>
 
 ---
 
-## 👥 Leadership & Community
+## <img src="https://api.iconify.design/heroicons:user-group-solid.svg?color=%2358a6ff" width="24" align="center"/> Leadership & Community
 
 <div align="center">
 
@@ -255,7 +251,7 @@
 
 <div align="center">
 
-### 💬 Let's Build Something Intelligent Together!
+### <img src="https://api.iconify.design/heroicons:chat-bubble-left-right-solid.svg?color=%2358a6ff" width="22" align="center"/> Let's Build Something Intelligent Together
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshil-kaneria-3a498918b/)
 [![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshilkaneriya26202@gmail.com)
