@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320" role="img" aria-label="Animated agent loop: plan, act, observe, reflect around an LLM core">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="359" height="319" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="16" cy="16" r="4" fill="#ff5f56"/>
+  <circle cx="30" cy="16" r="4" fill="#ffbd2e"/>
+  <circle cx="44" cy="16" r="4" fill="#27c93f"/>
+  <text x="180" y="20" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e">agent.run()</text>
+
+  <!-- orbit -->
+  <circle cx="180" cy="160" r="95" fill="none" stroke="url(#orbit)" stroke-width="1.5" stroke-dasharray="4 7" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-110" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- core -->
+  <circle cx="180" cy="160" r="36" fill="none" stroke="#a78bfa" stroke-width="2">
+    <animate attributeName="r" values="36;52" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="160" r="34" fill="url(#core)" filter="url(#glow)"/>
+  <text x="180" y="166" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700" fill="#f5f3ff">LLM</text>
+
+  <!-- token travelling the loop: top -> right -> bottom -> left -->
+  <circle r="6" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M180,65 A95,95 0 1,1 179.99,65"/>
+  </circle>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" text-anchor="middle">
+    <!-- PLAN (active 0-1s) -->
+    <rect x="140" y="52" width="80" height="26" rx="13" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="fill" values="#2e1065;#2e1065;#0b1220;#0b1220" keyTimes="0;0.22;0.3;1" dur="4s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#a78bfa;#a78bfa;#30363d;#30363d" keyTimes="0;0.22;0.3;1" dur="4s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="180" y="69" fill="#e9d5ff">PLAN</text>
+
+    <!-- ACT (active 1-2s) -->
+    <rect x="235" y="147" width="80" height="26" rx="13" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="fill" values="#2e1065;#2e1065;#0b1220;#0b1220" keyTimes="0;0.22;0.3;1" dur="4s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#a78bfa;#a78bfa;#30363d;#30363d" keyTimes="0;0.22;0.3;1" dur="4s" begin="-3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="275" y="164" fill="#e9d5ff">ACT</text>
+
+    <!-- OBSERVE (active 2-3s) -->
+    <rect x="135" y="242" width="90" height="26" rx="13" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="fill" values="#2e1065;#2e1065;#0b1220;#0b1220" keyTimes="0;0.22;0.3;1" dur="4s" begin="-2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#a78bfa;#a78bfa;#30363d;#30363d" keyTimes="0;0.22;0.3;1" dur="4s" begin="-2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="180" y="259" fill="#e9d5ff">OBSERVE</text>
+
+    <!-- REFLECT (active 3-4s) -->
+    <rect x="40" y="147" width="90" height="26" rx="13" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="fill" values="#2e1065;#2e1065;#0b1220;#0b1220" keyTimes="0;0.22;0.3;1" dur="4s" begin="-1s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#a78bfa;#a78bfa;#30363d;#30363d" keyTimes="0;0.22;0.3;1" dur="4s" begin="-1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="164" fill="#e9d5ff">REFLECT</text>
+  </g>
+
+  <!-- tool calls cycling under the loop -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" text-anchor="middle">
+    <text x="180" y="300" fill="#22d3ee" opacity="0">&gt; tool: retriever.search("docs")
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.34;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text x="180" y="300" fill="#22d3ee" opacity="0">&gt; tool: sql.query("SELECT ...")
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.34;1" dur="12s" begin="-8s" repeatCount="indefinite"/>
+    </text>
+    <text x="180" y="300" fill="#22d3ee" opacity="0">&gt; eval: hypothesis falsified, retry
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.34;1" dur="12s" begin="-4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
