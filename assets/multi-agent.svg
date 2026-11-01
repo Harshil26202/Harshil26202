@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1065" height="310" viewBox="0 0 1065 310" role="img" aria-label="Harshil as a multi-agent system: an orchestrator routes your problem to planner, retriever and tool-user agents; an evaluator ships passing work to production and sends failures back to the orchestrator">
+  <defs>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#2e1065"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f59e0b"/>
+    </marker>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1064" height="309" rx="14" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- edges: flowing dashes -->
+  <g fill="none" stroke="#22d3ee" stroke-width="1.8" stroke-dasharray="6 6" marker-end="url(#arrow)">
+    <path d="M135,150 L173,150"/>
+    <path d="M335,150 C360,150 360,70 383,70"/>
+    <path d="M335,150 L383,150"/>
+    <path d="M335,150 C360,150 360,230 383,230"/>
+    <path d="M625,70 C650,70 650,150 673,150"/>
+    <path d="M625,150 L673,150"/>
+    <path d="M625,230 C650,230 650,150 673,150"/>
+    <path d="M855,150 L898,150"/>
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/>
+  </g>
+  <path d="M765,192 L765,288 L255,288 L255,190" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="6 6" marker-end="url(#arrow-amber)">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- task token travelling left to right (hidden behind boxes, visible in the gaps) -->
+  <circle r="6" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M60,150 L980,150"/>
+  </circle>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle">
+    <!-- input -->
+    <rect x="15" y="128" width="120" height="44" rx="22" fill="#083344" stroke="#67e8f9" stroke-width="1.5"/>
+    <text x="75" y="155" font-size="14" font-weight="600" fill="#ecfeff">Your problem</text>
+
+    <!-- orchestrator -->
+    <polygon points="175,150 195,112 315,112 335,150 315,188 195,188" fill="url(#core)" stroke="#a78bfa" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="stroke-width" values="2;3.5;2" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <text x="255" y="145" font-size="12" font-weight="700" letter-spacing="1.5" fill="#c4b5fd">ORCHESTRATOR</text>
+    <text x="255" y="167" font-size="17" font-weight="700" fill="#f5f3ff">Harshil</text>
+
+    <!-- agents, highlighted in turn -->
+    <rect x="385" y="40" width="240" height="60" rx="10" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="stroke" values="#22d3ee;#22d3ee;#30363d;#30363d" keyTimes="0;0.28;0.34;1" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="505" y="64" font-size="12" font-weight="700" letter-spacing="1.5" fill="#67e8f9">PLANNER</text>
+    <text x="505" y="85" font-size="13" fill="#c9d1d9">LangGraph state machines</text>
+
+    <rect x="385" y="120" width="240" height="60" rx="10" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="stroke" values="#22d3ee;#22d3ee;#30363d;#30363d" keyTimes="0;0.28;0.34;1" dur="3s" begin="-2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="505" y="144" font-size="12" font-weight="700" letter-spacing="1.5" fill="#67e8f9">RETRIEVER</text>
+    <text x="505" y="165" font-size="13" fill="#c9d1d9">RAG · GraphRAG · pgVector</text>
+
+    <rect x="385" y="200" width="240" height="60" rx="10" fill="#0b1220" stroke="#30363d" stroke-width="1.5">
+      <animate attributeName="stroke" values="#22d3ee;#22d3ee;#30363d;#30363d" keyTimes="0;0.28;0.34;1" dur="3s" begin="-1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="505" y="224" font-size="12" font-weight="700" letter-spacing="1.5" fill="#67e8f9">TOOL-USER</text>
+    <text x="505" y="245" font-size="13" fill="#c9d1d9">Text-to-SQL · Playwright · Celery</text>
+
+    <!-- evaluator -->
+    <rect x="675" y="108" width="180" height="84" rx="10" fill="#0b1220" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="765" y="133" font-size="12" font-weight="700" letter-spacing="1.5" fill="#c4b5fd">EVALUATOR</text>
+    <text x="765" y="155" font-size="13" fill="#c9d1d9">baselines · LLM-as-judge</text>
+    <text x="765" y="175" font-size="13" fill="#c9d1d9">falsification</text>
+
+    <!-- production -->
+    <rect x="900" y="122" width="150" height="56" rx="28" fill="#083344" stroke="#67e8f9" stroke-width="1.5"/>
+    <text x="975" y="145" font-size="12" font-weight="700" letter-spacing="1.5" fill="#a5f3fc">PRODUCTION</text>
+    <text x="975" y="165" font-size="12" fill="#ecfeff">FastAPI · Docker · AWS</text>
+
+    <!-- edge labels -->
+    <text x="877" y="140" font-size="11" fill="#67e8f9">pass</text>
+    <rect x="455" y="279" width="110" height="18" rx="4" fill="#0d1117"/>
+    <text x="510" y="292" font-size="12" fill="#fbbf24">fail → retry</text>
+  </g>
+</svg>

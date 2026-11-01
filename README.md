@@ -75,25 +75,9 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 
 ## <img src="https://api.iconify.design/heroicons/share-solid.svg?color=%238b5cf6" width="24" align="center"/> Me, as a Multi-Agent System
 
-```mermaid
-flowchart LR
-    IN(["Your problem"]) --> ORCH{{"Orchestrator<br/><b>Harshil</b>"}}
-    ORCH --> PLAN["Planner<br/>LangGraph state machines<br/>task decomposition"]
-    ORCH --> RET["Retriever<br/>RAG · GraphRAG<br/>pgVector · ChromaDB · FAISS"]
-    ORCH --> TOOL["Tool-user<br/>function calling · Text-to-SQL<br/>Playwright · Celery"]
-    PLAN --> EVAL
-    RET --> EVAL
-    TOOL --> EVAL["Evaluator<br/>baselines · LLM-as-judge<br/>falsification · SHAP"]
-    EVAL -->|pass| SHIP(["Production<br/>FastAPI · Docker · AWS"])
-    EVAL -.->|fail, retry| ORCH
-
-    classDef core fill:#2e1065,stroke:#a78bfa,color:#f5f3ff,stroke-width:2px
-    classDef agent fill:#0b1220,stroke:#22d3ee,color:#e0f2fe
-    classDef io fill:#083344,stroke:#67e8f9,color:#ecfeff
-    class ORCH core
-    class PLAN,RET,TOOL,EVAL agent
-    class IN,SHIP io
-```
+<p align="center">
+  <img width="100%" alt="Harshil as a multi-agent system: orchestrator, planner, retriever, tool-user and evaluator agents shipping to production" src="assets/multi-agent.svg"/>
+</p>
 
 <div align="center">
 
