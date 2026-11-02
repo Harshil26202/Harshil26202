@@ -95,7 +95,9 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 ## <img src="https://api.iconify.design/heroicons/sparkles-solid.svg?color=%238b5cf6" width="24" align="center"/> Recently Shipped, Summarized by an LLM
 
 <!--AI-LOG:START-->
-_The agent runs daily via GitHub Actions and will fill this in on its first run._
+- [**My-portfolio**](https://github.com/Harshil26202/My-portfolio): 3 commits, latest: "Remove the contract evaluation role from the site"
+
+<sub>Auto-generated 02 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
 <!--AI-LOG:END-->
 
 ---
