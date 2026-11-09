@@ -97,7 +97,7 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 <!--AI-LOG:START-->
 - [**My-portfolio**](https://github.com/Harshil26202/My-portfolio): 3 commits, latest: "Remove the contract evaluation role from the site"
 
-<sub>Auto-generated 08 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
+<sub>Auto-generated 09 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
 <!--AI-LOG:END-->
 
 ---
