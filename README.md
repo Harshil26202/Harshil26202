@@ -97,7 +97,7 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 <!--AI-LOG:START-->
 _Quiet stretch in public repos: heads-down on something not shipped yet._
 
-<sub>Auto-generated 18 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
+<sub>Auto-generated 19 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
 <!--AI-LOG:END-->
 
 ---
