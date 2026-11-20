@@ -95,9 +95,9 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 ## <img src="https://api.iconify.design/heroicons/sparkles-solid.svg?color=%238b5cf6" width="24" align="center"/> Recently Shipped, Summarized by an LLM
 
 <!--AI-LOG:START-->
-_Quiet stretch in public repos: heads-down on something not shipped yet._
+- [**My-portfolio**](https://github.com/Harshil26202/My-portfolio): 1 commit, latest: "Add Open source section with live GitHub data"
 
-<sub>Auto-generated 19 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
+<sub>Auto-generated 20 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
 <!--AI-LOG:END-->
 
 ---
