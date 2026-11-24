@@ -97,7 +97,7 @@ me.open_to   = ["Agentic AI / LLM engineering roles", "Open-source AI collabs"]
 <!--AI-LOG:START-->
 - [**My-portfolio**](https://github.com/Harshil26202/My-portfolio): 2 commits, latest: "Add case studies, a write-up, a PDF résumé and a sending contact form"
 
-<sub>Auto-generated 23 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
+<sub>Auto-generated 24 Nov 2026 by plain digest from my last 14 days of public commits · [how this works](scripts/ai_weekly_log.py)</sub>
 <!--AI-LOG:END-->
 
 ---
